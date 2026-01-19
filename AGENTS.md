@@ -25,7 +25,7 @@ Guide for contributors to the Japanese yen ledger app. Planning docs are the cur
 
 ## Testing Guidelines
 - Frameworks: XCTest / Swift Testing. Cover sync queue ordering, budget lock on first entry, fixed expense generation, and conflict resolution flow.
-- Name tests `test_{Scenario}_Should{Outcome}`; keep fixtures deterministic with in-memory SQLite/GRDB and stubbed Supabase calls (no live network). Focus on amount math, date handling, and tag role rules.
+- Name tests `test_{Scenario}_Should{Outcome}`; keep fixtures deterministic with in-memory SQLite/GRDB and stubbed Supabase calls (no live network). Focus on amount math, date handling, and tag role rules.meiyi
 
 ## Commit & Pull Request Guidelines
 - Commits: short, imperative, and scoped (e.g., `add design doc and tech stack`, `refine PRD`). Avoid mixing migrations, client code, and docs in one commit when possible.
